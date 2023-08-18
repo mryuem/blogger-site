@@ -1,0 +1,77 @@
+// header
+
+.header {
+  //header top
+
+  &-top {
+    .navbar {
+      font-size: 1.3rem;
+      display: flex;
+      justify-content: space-between;
+      .nav {
+        &-left ul {
+          display: flex;
+
+          li {
+            margin: 2rem 0;
+            padding-right: 1.2rem;
+
+            a {
+              color: $dark-color;
+              transition: all 0.3s;
+
+              &:hover {
+                color: $primary-color;
+              }
+            }
+          }
+        }
+
+        &-right ul {
+          display: flex;
+
+          align-items: center;
+
+          li {
+            margin: 2rem 0;
+            padding-right: 1.2rem;
+
+            a {
+              color: #222222;
+              transition: all 0.3s;
+
+              &:hover {
+                color: $primary-color;
+              }
+            }
+
+            input {
+              border: none;
+              outline: none;
+              width: 120px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //header-under
+
+  &-under {
+    .blogger-slogan {
+      padding: 6rem 1rem;
+      text-align: center;
+
+      h1 {
+        display: inline-block;
+        font-size: 6rem;
+        margin-bottom: 1rem;
+      }
+
+      .title {
+        color: $secondary-color;
+      }
+    }
+  }
+}

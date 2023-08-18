@@ -1,0 +1,153 @@
+// mobile
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  //   header
+  .header {
+    &-top {
+      .navbar {
+        justify-content: center;
+
+        .nav-left {
+          display: none;
+        }
+        .nav-right {
+        }
+      }
+    }
+
+    &-under {
+      .container {
+        .blogger-slogan {
+          padding: 4rem 1rem;
+        }
+      }
+    }
+  }
+
+  //   slider
+  .slider {
+    .slider-content {
+      display: none;
+    }
+  }
+
+  //   bloggs
+  .blog-container {
+    .container {
+      display: inline-block;
+      width: 100%;
+      padding: 0;
+
+      .blog-container {
+        padding: 0;
+
+        .blog-paragraph {
+          padding: 0 1rem;
+        }
+      }
+    }
+
+    .aside {
+      display: none;
+    }
+  }
+
+  //   footer
+  .footer {
+    .container {
+      width: 100%;
+    }
+    img {
+      height: 415px;
+    }
+
+    .footer-share {
+      .nav-share {
+        ul li {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+// extra small devices
+
+@media (max-width: 767px) {
+  //   header
+  .header {
+    &-top {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+        .nav-left {
+          justify-content: center;
+        }
+        .nav-right {
+        }
+      }
+    }
+
+    &-under {
+      .container {
+        .blogger-slogan {
+          padding: 4rem 1rem;
+        }
+      }
+    }
+  }
+
+  //   slider
+  .slider {
+    .slider-content {
+      display: none;
+    }
+  }
+
+  //   bloggs
+  .blog-container {
+    .container {
+      display: inline-block;
+      width: 100%;
+      padding: 0;
+
+      .blog-container {
+        padding: 0;
+
+        .blog-paragraph {
+          padding: 0 1rem;
+        }
+      }
+    }
+
+    .aside {
+      display: none;
+    }
+  }
+
+  //   footer
+  .footer {
+    .container {
+      width: 100%;
+    }
+  }
+}
+
+//  small tablets
+
+@media (max-width: 961) {
+}
+
+//  large tablets / Laptops
+
+@media (max-width: 992px) {
+}
+
+// Desktops
+
+@media (max-width: 1200px) {
+}
